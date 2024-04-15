@@ -19,6 +19,6 @@ const names = [
     }
 ]
 
-names.map(name => {
+names.forEach(name => {
     console.log(name);
 })
